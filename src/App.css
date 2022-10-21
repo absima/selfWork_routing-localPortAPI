@@ -1,0 +1,148 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem ;
+  text-align: left;
+  background-color: rgb(165, 171, 158);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0.15rem;
+}
+
+.homePage{
+  background-image: url("./images/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-bottom: 30px; */
+  height: 450px;
+  background-position: 8px 0;
+
+}
+
+
+.images{
+  margin-top: 30px;
+  display: inline-flex;
+}
+img{
+  /* text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 30px;
+}
+
+
+/* NAVBAR  */
+nav {
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+  /* color: hsl(352, 84%, 20%) */
+}
+
+nav ul {
+  /* border: 1px solid blue; */
+  height: 40px;
+  /* background-color: hsl(352, 84%, 20%); */
+  display: flex;
+  /* flex: auto; */
+}
+
+.logoimg {
+  width: 70px;
+  display: inline-block;
+  padding: 1px;
+  border: 5px solid hsl(352, 84%, 20%);
+}
+
+li a{
+  color: hsl(352, 84%, 20%);
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  padding-top: 10px;
+  /* padding-left: 5px; */
+}
+
+.main .mainLi:hover {
+  /* background-color: rgb(26, 25, 25); */
+  cursor: pointer;
+}
+
+/* dropdown and nested dropdown */
+
+nav ul ul {
+  height: 40px;
+  position: absolute;
+  display: none;
+  margin-top: auto;
+  /* justify-content: space-evenly; */
+  /* justify-content: left; */
+  /* background-color: rgb(26, 25, 25); */
+  display: block;
+  flex: auto;
+}
+
+nav ul li ul {
+  display: none;
+} 
+
+nav ul li:hover .sub {
+  display: flex;
+} 
+
+
+nav ul ul ul {
+  position: absolute;
+  display: none;
+  margin-top: auto;
+  height: auto;
+  padding-bottom: 10px;
+  /* background-color: rgb(26, 25, 25); */
+}
+
+nav ul ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  justify-content: stretch;
+  
+} 
+
+nav ul ul li:hover {
+  /* background-color: rgb(26, 25, 25); */
+  cursor: pointer;
+}
+
+nav ul ul ul li:hover {
+  /* background-color: rgb(26, 25, 25); */
+  cursor: pointer;
+}
+
+.webtitle{
+  padding-top: 50px;
+}
+
+.richText{
+  padding-bottom: 7px;
+}
+
+h2,h3 {
+  padding-bottom: 15px;
+  padding-top: 15px
+}
+h1{
+  /* display: inline-block; */
+  /* align-items: center; */
+  /* margin-top: 0; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
