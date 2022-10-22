@@ -7,7 +7,7 @@
 	1. 	I included the line `"type": "module"` within the `package.json` file-- this is to follow the current trend (eg. using import instead of require) 
 	2.  in the same file, within `"scripts"` section, I added `"start" : "node index.js"`  
 	3. I installed `express` by running `npm install express nodemon`
-	4. to be able to use nodemon, I included a line `"source" : "nodemon index.js"` /This will allow me to activate the server API by running `npm run source`
+	4. to be able to use nodemon, I included a line `"source" : "nodemon index.js"` /This will allow me to activate the server API by running `npm run source` or `npm start`
 
 3. I lounched the react app on Chrome with a command `npm run dev`
 4. I lounched the server with a command `npm start`
