@@ -1,6 +1,5 @@
-const contentful = require("contentful");
-const fs = require('fs')
-// import fs from 'fs';
+import fs from 'fs';
+import contentful  from "contentful";
 
 const client = contentful.createClient({
   space: 'h4wwx2mbhm2q',//import.meta.env.VITE_SPACE,
